@@ -12,8 +12,9 @@
 	},
 	"license": "MIT",
 	"require": {
-        	"flarum/core": "^0.1.0-beta.7",
-        	"flarum/flarum-ext-markdown": "^0.1.0-beta.5"
+        	"flarum/core": ">=0.1.0-beta.7",
+        	"flarum/flarum-ext-markdown": ">=0.1.0-beta.5",
+		"s9e/text-formatter": ">=0.8.5"
 	},
 	"support": {
 		"source": "https://github.com/dogsports/flarum-ext-pipetables",
