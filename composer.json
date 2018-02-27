@@ -2,7 +2,6 @@
 	"name": "dogsports/flarum-ext-pipetables",
 	"description": "Active markdown tables.",
 	"type": "flarum-extension",
-	"version": "0.1.3",
 	"keywords": [
 		"flarum",
 		"markdown",
