@@ -2,19 +2,25 @@
 	"name": "dogsports/flarum-ext-pipetables",
 	"description": "Active markdown tables.",
 	"type": "flarum-extension",
-	"keywords": ["flarum","typography"],
-	"version": "1.0.0",
+	"keywords": ["flarum","dogsports","markdown","table","typography"],
+	"version": "1.0.1",
 	"author": {
 		"name": "Kevin PAULMIER"
 	},
 	"license": "MIT",
 	"require": {
 		"php": ">=5.4.0",
-		"flarum/core": ">=0.1.0-beta.6"
+		"flarum/core": ">=0.1.0-beta.7",
+		"s9e/text-formatter" : "*"
 	},
 	"support": {
 		"source": "https://github.com/dogsports/flarum-ext-pipetables",
 		"issues": "https://github.com/dogsports/flarum-ext-pipetables/issues"
+	},
+	"autoload": {
+		"psr-4": {
+			"DogSports\\PipeTables\\": "src/"
+		}
 	},
 	"extra": {
 		"flarum-extension": {
