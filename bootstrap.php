@@ -5,6 +5,6 @@ use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events)
 {
-    $events->subscribe(Listeners\AddTables::class);
-    $events->subscribe(Listeners\AddClientAssets::class);
+    $events->subscribe(listeners\AddTables::class);
+    $events->subscribe(listeners\AddClientAssets::class);
 };
