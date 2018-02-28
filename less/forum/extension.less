@@ -1,19 +1,25 @@
 .Post-body table {
-    width: 750px;
     border-collapse: collapse;
-    margin:50px auto;
+	width: 98%;
+	margin: 1%;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
 	}
-.Post-body tr:nth-of-type(odd) {
-    background: #eee;
+.Post-body td, .Post-body th {
+    padding: 4px;
+    border: 1px solid @body-bg;
+    text-align: left;
     }
 .Post-body th {
-    background: #3498db;
-    color: white;
+    background: @primary-color;
+    color: @body-bg;
     font-weight: bold;
+	border-radius-top-left: @border-radius;
+	border-radius-top-right: @border-radius;
     }
-.Post-body td, .Post-body th {
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: left;
-    font-size: 18px;
+.Post-body tr {
+    background: fade(@primary-color, 20%);
+	color: @text-color;
+    }
+.Post-body tr:nth-of-type(odd) {
+    background: fade(@primary-color, 10%);
     }
