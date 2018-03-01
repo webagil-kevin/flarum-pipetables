@@ -23,3 +23,33 @@
 .Post-body tr:hover, .Post-body tr:hover td {
     background-color: fade(@primary-color, 30%);
 }
+
+@media @phone {
+    .Post-body table, .Post-body thead, .Post-body tbody, .Post-body th, .Post-body td, .Post-body tr { 
+        display: block; 
+    }
+    .Post-body thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .Post-body tr {
+        border: 1px solid #ccc;
+	}
+    .Post-body td {
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%; 
+    }
+    .Post-body td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        content: attr(data-column);
+        color: #3498db;
+    }
+}
