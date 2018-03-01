@@ -1,9 +1,9 @@
 # flarum-ext-pipetables
 Active markdown tables for Flarum.
 
-Github: https://github.com/DogSports/flarum-ext-pipetables
-Issues: https://github.com/DogSports/flarum-ext-pipetables/issues
-Packagist: https://packagist.org/packages/dogsports/flarum-ext-pipetables
+* Github: https://github.com/DogSports/flarum-ext-pipetables
+* Issues: https://github.com/DogSports/flarum-ext-pipetables/issues
+* Packagist: https://packagist.org/packages/dogsports/flarum-ext-pipetables
 
 ### Features
 * respect markdown syntax
