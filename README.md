@@ -9,6 +9,7 @@ Active markdown tables for Flarum.
 * respect markdown syntax
 * unlimited lines and columns
 * use the custom colors of your theme
+* responsive design for phone
 
 ### Example
 ![Flarum markdown tables](https://framapic.org/LEYSpBr1lbbv/2iLLOGOwRegm)
