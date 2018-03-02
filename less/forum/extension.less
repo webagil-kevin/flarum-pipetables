@@ -2,24 +2,24 @@
     width: 98%;
     margin: 1%;
     box-shadow: -1px 2px 5px 1px @primary-color;
-    }
+}
 .Post-body td, .Post-body th {
     padding: 4px;
     border: 1px solid @body-bg;
     text-align: left;
-    }
+}
 .Post-body th {
     background: @primary-color;
     color: @body-bg;
     font-weight: bold;
-    }
+}
 .Post-body tr {
     background: fade(@primary-color, 20%);
     color: @text-color;
-    }
-.Post-body tr:nth-of-type(odd) {
+}
+.Post-body tr:nth-child(even) {
     background: fade(@primary-color, 10%);
-    }
+}
 .Post-body tr:hover, .Post-body tr:hover td {
     background-color: fade(@primary-color, 30%);
 }
@@ -34,13 +34,14 @@
         left: -9999px;
     }
     .Post-body tr {
-        border: 1px solid #ccc;
-	}
+        border: 1px solid @body-bg;
+    }
     .Post-body td {
         border: none;
-        border-bottom: 1px solid #eee; 
+        border-bottom: 1px solid @body-bg;
         position: relative;
-        padding-left: 50%; 
+        padding-left: 50%;
+        text-align: left !important;
     }
     .Post-body td:before {
         position: absolute;
@@ -50,6 +51,7 @@
         padding-right: 10px; 
         white-space: nowrap;
         content: attr(data-th);
-        color: #3498db;
+        color: @primary-color;
+        font-weight: bold;
     }
 }
