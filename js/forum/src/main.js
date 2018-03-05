@@ -5,8 +5,25 @@ import Post from 'flarum/components/Post'
 
 app.initializers.add('DogSports-PipeTables', app => {
 	extend(Post.prototype, 'config', function (original, isInitialized) {
-		this.$('.Post-body table thead th').each(function () {
-			this.$('.Post-body table tbody td:nth-child(' + ($(this).index() + 1) + ')').attr('data-th', $(this).html())
-		})
+		function addDataLabelsToTable(table)
+		{
+			let labels = [];
+			for (let th of table.getElementsByTagName('th'))
+			{
+				labels.push(th.textContent);
+			}
+			for (let tr of table.getElementsByTagName('tr'))
+			{
+				let i = -1;
+				for (let td of tr.getElementsByTagName('td'))
+				{
+					td.setAttribute('data-label', labels[++i] || '');
+				}
+			}
+		}
+		for (let table of document.getElementsByTagName('table'))
+		{
+			addDataLabelsToTable(table);
+		}
 	})
 });
