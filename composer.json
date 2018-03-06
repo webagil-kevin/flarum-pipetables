@@ -3,7 +3,6 @@
 	"description": "Active markdown tables.",
 	"type": "flarum-extension",
 	"keywords": ["flarum","dogsports","markdown","table","typography"],
-	"version": "1.0.8",
 	"author": {
 		"name": "Kevin PAULMIER"
 	},
