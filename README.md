@@ -1,33 +1,35 @@
-# flarum-ext-pipetables
-Active markdown tables for Flarum.
+# flarum-pipetables
 
-* Github: https://github.com/DogSports/flarum-ext-pipetables
-* Issues: https://github.com/DogSports/flarum-ext-pipetables/issues
-* Packagist: https://packagist.org/packages/dogsports/flarum-ext-pipetables
+![License](https://img.shields.io/github/license/kevid/flarum-pipetables.svg) [![Latest Stable Version](https://img.shields.io/github/release/kevid/flarum-pipetables.svg)](https://packagist.org/github/release/kevid/flarum-pipetables) [![Latest Stable Version](https://img.shields.io/packagist/v/kevid/flarum-pipetables.svg)](https://packagist.org/packages/kevid/flarum-pipetables) ![Issues](https://img.shields.io/github/issues/kevid/flarum-pipetables.svg)
+
+A [Flarum](http://flarum.org) extension. Active markdown tables.
 
 ### Features
 * respect markdown syntax
 * unlimited lines and columns
 * use the custom colors of your theme
-* responsive design for phone
+* responsive design
 
 ### Example
 ![Flarum markdown tables](https://framapic.org/LEYSpBr1lbbv/2iLLOGOwRegm)
 
 ### Installation
-Use [Bazaar](https://github.com/flagrow/bazaar) or install manually:
-```
-composer require dogsports/flarum-ext-pipetables
+
+Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually with composer:
+
+```sh
+composer require kevid/flarum-pipetables
 ```
 
 ### Updating
-```
-composer require dogsports/flarum-ext-pipetables
+
+```sh
+composer update kevid/flarum-pipetables
 php flarum cache:clear
 ```
 
 ### Configuration
-Install then go to the admin panel and enable the extension. That's all !
+Install then go to the admin panel and enable extension. That's all !
 
 ### Style
 In admin, add this custom CSS:
