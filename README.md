@@ -1,6 +1,7 @@
 # flarum-pipetables
 
-![License](https://img.shields.io/github/license/kevid/flarum-pipetables.svg) [![Latest Stable Version](https://img.shields.io/github/release/kevid/flarum-pipetables.svg)](https://packagist.org/github/release/kevid/flarum-pipetables) [![Latest Stable Version](https://img.shields.io/packagist/v/kevid/flarum-pipetables.svg)](https://packagist.org/packages/kevid/flarum-pipetables) ![Issues](https://img.shields.io/github/issues/kevid/flarum-pipetables.svg)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kevid/flarum-pipetables/blob/master/LICENSE)
+[![Latest Stable Version](https://img.shields.io/github/release/kevid/flarum-pipetables.svg)](https://packagist.org/github/release/kevid/flarum-pipetables) [![Latest Stable Version](https://img.shields.io/packagist/v/kevid/flarum-pipetables.svg)](https://packagist.org/packages/kevid/flarum-pipetables) ![Issues](https://img.shields.io/github/issues/kevid/flarum-pipetables.svg)
 
 A [Flarum](http://flarum.org) extension. Active markdown tables.
 
